@@ -1,4 +1,4 @@
 FROM openjdk
-COPY /target/*.jar /demo.jar
-CMD ["java","-jar","/demo.jar"]
+COPY /target/*.jar /opt/demo.jar
+CMD ["java","-jar","demo.jar"]
 EXPOSE 90
