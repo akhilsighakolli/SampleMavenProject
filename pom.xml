@@ -7,6 +7,11 @@
   <version>1.0-SNAPSHOT</version>
   <name>SampleMavenProject</name>
   <url>http://maven.apache.org</url>
+  <properties>
+	<sonar.host.url>http://18.60.89.14:9000/</sonar.host.url>
+	<sonar.login>admin</sonar.login>
+	<sonar.password>admin</sonar.password>
+</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
